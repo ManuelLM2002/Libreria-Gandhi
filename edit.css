@@ -1,0 +1,98 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font: normal 12px/1.8em Arial, Helvetica, sans-serif;
+    background: cyan;
+}
+
+#header {
+margin:auto;
+width:500px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+list-style:none;
+}
+	
+.nav > li {
+float:left;
+}
+		
+.nav li a {
+background-color:#000;
+color:#fff;
+text-decoration:none;
+padding:10px 12px;
+display:block;
+}
+			
+.nav li a:hover {
+background-color:#434343;
+}
+			
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+			
+.nav li:hover > ul {
+display:block;
+}
+		
+.nav li ul li {
+position:relative;
+}
+			
+.nav li ul li ul {
+right:-140px;
+top:0px;
+}
+
+.header
+{
+    background-color: yellow;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+.header h3
+{
+    font-size: 30px;
+    line-height: 40px;
+}
+.left
+{
+    background-color: cyan;
+    float: left;
+    text-align: center;
+}
+
+.center
+{
+    width: 420px;
+    margin-left: 400px;
+    padding: 0px;
+    height: 500px;
+    text-align: center;
+    float: center;
+    text-color: black;
+}
+
+.right
+{
+    background-color: Lime;
+    float: right;
+    margin-top: -500px;
+    padding: 0px;
+    color: Navy;
+    text-align: center;
+    line-height: 475px;
+}
+
